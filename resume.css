@@ -1,0 +1,761 @@
+body
+{
+    margin:0rem;
+    padding: 0rem;
+    width: 100%;
+    overflow: scroll;
+    background-image: url('images/back2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+header
+{
+    width:97%;
+    padding: 1rem;
+    overflow: hidden;   
+}
+.ln
+{
+    height: inherit;
+    border: 2px #00aff0;
+}
+.conta
+{
+    font-size: 1.4rem;
+}
+.conta a
+{
+    text-decoration: none;
+ 
+}
+.fa:hover
+{
+    
+    transform: scale(1.2);
+   
+}
+.fa {
+    padding: 1rem;
+  font-size: 2rem;
+  width: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+   
+.fa-github
+{
+    background-color: black;
+    color: white;
+}
+.fa-stack-overflow {
+    background: #ff6600;
+    color: white;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+}
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+.fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+.eduction_icon , .skills_icon , .certi_icon , .exp_icon, .ach_icon , .hob_icon , .foot_icon ,.pro_icon
+{
+    width: 100%;
+    
+}
+.eduction_icon img , .skills_icon img , .certi_icon img , .exp_icon img , .ach_icon img , .hob_icon img , .foot_icon img ,.pro_icon img
+{
+height: 5rem;
+margin: -3rem auto;
+display: block;
+
+
+}
+.eduction_icon img:hover , .skills_icon img:hover , .certi_icon img:hover , .exp_icon img:hover , .ach_icon img:hover , .hob_icon img:hover ,.navicon img:hover ,.nav .close:hover , .foot_icon img:hover ,.pro_icon img:hover
+{
+    opacity: 0.8;
+    transition: 0.3s all;
+    
+}
+.ima
+{
+    width: 17%;
+    padding: 1rem;
+    padding-left: 0px;
+    overflow: hidden;
+    float: left;
+}
+.nav
+{
+    color: white;
+    width: 97%;
+    padding: 0rem;
+    margin-left: 1rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+.nav ul
+{
+    list-style-type:none;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+   
+    color: black;
+}
+.nav ul li
+{
+    display: inline;
+    width: 13%;
+    text-decoration: none;
+    transition: 0.5s all;
+    text-align: center;
+    background-color:rgba(211, 211, 211, 0.936);
+    font-weight: bold;
+    
+}
+.nav ul li a{
+
+    transition: 0.5s all;
+
+width: 90%;
+    display: block;
+    margin: auto;
+    padding: 6px 0px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav ul li img
+{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.nav ul li:first-child
+{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; 
+}
+.nav ul li:nth-last-child(1)
+{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.nav ul li:hover
+{
+    background-color: rgba(173, 173, 173, 0.741);
+    
+    
+    cursor: pointer;
+
+    
+}
+.nav ul li a:hover{
+    transform: scale(1.1);
+    color: rgb(64, 185, 254);
+}
+
+.ima img
+{
+    width: 100%;
+     
+    overflow: hidden;
+}
+.info
+{
+    float: left;
+    width: 77%;
+    padding: 1rem;
+    height: inherit;
+    color: white;
+   
+}
+.download
+{
+    width: 26%;
+    float: left;
+    margin: 4rem 0rem;
+}
+.download img
+{
+    width: 50%;
+    margin:0 auto;
+    display: block;
+    height:6rem;
+}
+section
+{
+    width: 97%;
+    clear: both;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.education table
+{
+    margin: 6rem auto;
+}
+.education table th , .education table td
+{
+    width: 13rem;
+    height: 3rem;
+    
+    vertical-align: top;
+    text-align: left;
+}
+.education table th img, .education table td img
+{
+    width: 3rem;
+    display: block;
+    margin: 0px auto;
+
+}
+.skills table
+{
+    margin: 2rem auto;
+    padding: 2.8rem;
+    
+    
+    
+}
+.education
+{
+    width: 49%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1%;
+    margin:2.9rem auto 0rem auto;
+    transition: transform 0.5s;
+    
+float: left;
+    border: 2px solid rgb(107, 199, 235);
+}
+.education:hover
+{
+    transform: scale(1.03); 
+    overflow: visible;
+   
+}
+.skills:hover ,.achievements:hover , .hobbies:hover  ,.certifications:hover ,.Experience:hover 
+{
+    transform: scale(1.03); 
+    overflow: visible;
+   
+}
+
+.skills
+{
+    background-image: url('images/skills4.jpeg');
+    margin-top:2.9rem ;
+    margin-left: 1%;
+    margin-bottom: 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 47%;
+    transition: transform 0.5s;
+    overflow: visible;
+    border: 2px solid rgb(107, 199, 235);
+    float: left;
+}
+.second_container
+{
+    width: 100%;
+    display: inline-block;
+    overflow: visible;
+}
+.skills table th , .skills table td
+{
+   
+    opacity: 1;
+    width: 3%;
+    
+    text-align: left;
+}
+.skills table th img, .skills table td img
+{
+    width: 100%;
+    height: 2.5rem;
+    display: block;
+    background-color: white;
+    margin: 9px auto;
+
+}
+.certifications , .Experience , .hobbies
+{
+    width: 47%;
+    height: 9.8rem;
+    overflow: visible;
+    float: left;
+    background-color: whitesmoke;
+    
+    padding: 0%;
+    border: 2px solid rgb(107, 199, 235);
+    margin-top:3.5rem ;
+    margin-left: 1%;
+    margin-bottom: 0rem;
+    transition: transform 0.5s;
+    
+   
+}
+.hobbies p img
+{
+    padding-left: 1rem;
+}
+.hobbies
+{
+    margin-top: 0rem;
+    height: auto;
+}
+.firstcertificate , .exp1
+{
+    width: 100%;
+    overflow: hidden;
+}
+.certifications .cer1_img , .exp1_logo  
+{
+ width: 40%;
+ float: left;
+ padding: 1rem;
+}
+.exp1_info
+{
+    width: 41%;
+ float: left;
+ padding: 1rem;
+}
+.certifications .view 
+{
+    padding: 1rem;
+    width: 40%; 
+    float: left;
+}
+.certifications .cer1_img img 
+{
+    width: 7rem;
+    height: 4rem;
+    margin: 0rem auto;
+}
+.exp1_logo img
+{
+    width: 7rem;
+    height: 1.5rem;
+    margin: 0rem auto; 
+}
+.certifications .view a img
+{
+    width: 3rem;
+    height: 1.4rem;
+    margin: 0rem auto;
+    display: block;
+    margin: 1rem auto 1rem auto;
+    
+}
+.cer1 , .exp1
+{
+    width: 98%;
+    overflow: hidden;
+    margin-top: 4rem;
+   
+}
+.exp1_info p
+{
+    margin: 0px;
+}
+.achievements 
+{
+    overflow: visible;
+    float: left;
+    background-color: white;
+    width: 51%;
+    padding: 0%;
+    border: 2px solid rgb(107, 199, 235);
+    transition: transform 0.5s;
+    
+}
+.achievements p img
+{
+    padding-left: 1rem;
+}
+.sec_sec
+{
+    width: 97%;
+    overflow: hidden;
+    padding-top: 2%;
+    margin-top: 1rem;
+}
+.achievements p img , .hobbies p img
+{
+    height: 1rem;
+    width: 1.5rem;
+}
+
+
+footer
+{
+    width: 97%;
+    margin-top: 3rem;
+    padding: 1rem;
+    
+    clear: both;
+}
+.foot_cont
+{
+    width:100%;
+    background-color: white;
+    padding: 0rem;
+    overflow: hidden;
+    border: 2px solid rgb(107, 199, 235);
+}
+.sec_ft
+{
+    width: 47%;
+    float: left;
+    padding: 1rem;
+    margin: 0rem auto;
+}
+.sec_ft iframe
+{
+display: block;
+margin: 0rem auto;
+}
+.map
+{
+    width: 47%;
+    float: left;
+    padding: 1rem;
+   
+}
+.sec_con
+{
+    width: 100%;
+    overflow: visible;
+    
+    margin-top: 1rem;  
+}
+
+/* projects */
+
+.projects
+{
+    width: 97%;
+    clear: both;
+    overflow: visible;
+    padding: 1%;
+    margin-top: 2rem;
+    
+}
+.pro_cont1 , .pro_cont2 , .pro_cont3
+{
+    display: inline-block;
+    background-color: white;
+    height: 20rem;
+    width: 98%;
+    padding: 1% 1%;
+    overflow: visible;
+    margin: 2rem 0rem;
+}
+.pro_cont1_cont1 ,.pro_cont2_cont2,.pro_cont3_cont3
+{
+    width: 30%;
+    float: left;
+    transition: 0.5s transform;
+    height: 100%;
+    margin: 7rem auto 0rem auto;
+}
+    
+
+.pro_cont3_cont3
+{
+    width: 40%;
+    margin: 0rem;
+}
+.pro_cont3_cont3:hover ,.pro_cont1_cont1:hover,.pro_cont2_cont2:hover
+{
+    transform: scale(1.04);
+}
+.pro_vw
+{
+    height: inherit;
+}
+.projects iframe
+{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    cursor:pointer;
+    
+}.pro_back 
+{
+    background-color: white;
+    overflow: visible;
+    padding-top: 1rem;
+    border: 2px solid rgb(107, 199, 235);
+}
+.pro_about, .pro_url ,.pro_name ,.pro_tech
+{
+    padding: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pro_about h2, .pro_url h2,.pro_name h2,.pro_tech h2
+{
+    margin: 0rem;
+    font-weight: bolder;
+    color: #bb0000b9;
+    
+}
+.pro_about h3, .pro_url h3,.pro_name h3,.pro_tech h3
+{
+    margin: 0rem;
+    color: #007bb5;
+    
+}
+.pro_about p
+{
+    margin: 0rem;
+}
+.pro_url a
+{
+    text-decoration: none;
+    color: #007bb5;
+}
+hr
+{
+    border: 1px solid rgb(107, 199, 235);
+}
+
+
+
+
+/* mobile devices and tablets */
+
+@media screen and  (max-width: 1080px) {
+    .education {
+        width: 97%;
+    }
+    
+
+.skills
+{
+    width: 97%;
+    margin: 3rem auto;
+    padding: 1%;
+}
+.achievements
+{
+    width: 97%;
+    margin-top: 2rem;
+    padding: 1%;
+
+}
+.certifications
+{
+    width: 97%;
+    margin-left: 0rem;
+    padding: 1%;
+}
+footer
+{
+    width: 97%;
+    clear: both;
+    margin: 2rem auto 2rem auto;
+    padding: 1%;
+}
+.sec_sec
+{
+    margin-top: 0rem;
+}
+.hobbies
+{
+    width: 97%;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    padding: 1%;
+}
+.Experience
+{
+    width: 97%;
+    margin-left: 0rem;
+    padding: 1%;
+    
+}
+.foot_cont
+{
+    width: 97%;
+    padding: 1%;
+    
+}
+
+.sec_con
+{
+    margin-top: 0rem;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+.info
+{
+    width: 97%;
+}
+.ima
+{
+    padding: 1rem;
+}
+.sec_ft
+{
+    width: 45%;
+}
+.map
+{
+    width: 45%;
+}
+.pro_cont1_cont1 ,.pro_cont2_cont2,.pro_cont3_cont3
+{
+    width: 97%;
+    padding: 1%;
+    height:auto;
+    margin-top:0rem
+}
+.pro_cont1 , .pro_cont2  ,.pro_cont3
+{
+    height: auto;
+}
+.pro_cont3_cont3
+{
+    height: 25rem;
+}
+.projects
+{
+    width: 97%;
+    padding:1rem;
+    margin: 2rem auto 0rem auto;
+}
+.pro_back 
+{
+    width: 99%;
+}
+}
+
+@media screen and   (max-width:670px)
+{
+    .nav
+{
+    display: none;
+    visibility: hidden;
+}
+.navicon
+{
+    display: none;
+    visibility: hidden;
+}
+.education , .skills{
+    width: 97%;
+}
+
+
+.skills
+{
+margin: 3rem auto;
+}
+.achievements
+{
+width: 97%;
+margin-top: 2rem;
+
+}
+.certifications
+{
+width: 97%;
+margin-left: 0rem;
+}
+footer
+{
+width: 97%;
+clear: both;
+padding: 1rem;
+}
+.hobbies
+{
+width: 97%;
+margin-left: 0rem;
+margin-top: 3rem;
+}
+.Experience
+{
+width: 97%;
+margin-left: 0rem;
+}
+.foot_cont
+{
+width: 100%;
+margin-top: 1rem;
+
+}
+.sec_ft
+{
+    width: 100%;
+}
+.map{
+    width: 100%;
+}
+
+.sec_con
+{
+margin-top: 0rem;
+overflow: hidden;
+padding-top: 1rem;
+}
+.info
+{
+width: 97%;
+padding:0rem  1rem;
+}
+.ima
+{
+    padding:0rem 1rem;
+}
+    
+}
+
